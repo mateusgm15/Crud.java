@@ -7,6 +7,8 @@ public class Principal {
         Cliente cliente1 = new Cliente("Mateus", "753.856.856.21", "mateus@gmail.com", "12/11/2004", 1);
         Cliente cliente2 = new Cliente("Anne", "322.563.826.14", "anne@gmail.com", "14/07/2000", 2);
         Cliente cliente3 = new Cliente("Elaine", "333.436.343.31", "elaine@gmail.com", "04/09/1933", 3);
+        Cliente cliente4 = new Cliente("Milton", "222.111.333.67", "miltons@gmail.com", "20/10/1888", 4);
+
 
         novoCadastro.cadastrar(cliente1);
         novoCadastro.cadastrar(cliente2);
@@ -40,5 +42,8 @@ public class Principal {
 
         System.out.println("--- Lista final ---");
         novoCadastro.listarClientes();
+
+        //novoCadastro.cadastrar(cliente4);//
+
     }
 }
